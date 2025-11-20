@@ -1,0 +1,49 @@
+2025-11-20 22:32:03.208 INFO  <Thread-25> [/Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Dispatching started for transformation [pentaho_rest_json_input]
+2025-11-20 22:32:03.567 INFO  <pentaho_rest_json_input - Data grid> [/Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-20 22:32:05.093 INFO  <pentaho_rest_json_input - REST client> [/Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-20 22:32:05.127 INFO  <pentaho_rest_json_input - JSON input> [/Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-20 22:32:05.130 INFO  <pentaho_rest_json_input - Select values> [/Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-20 22:32:05.441 INFO  <pentaho_rest_json_input - Microsoft Excel output> [/Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=11, R=11, W=11, U=0, E=0)
+2025-11-20 22:46:52.211 WARN  <Thread-44> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Start of job execution
+2025-11-20 22:46:52.259 INFO  <Thread-44> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Starting entry [Transformation]
+2025-11-20 22:46:52.278 ERROR <Thread-44> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Unable to run job job_json_to_excel. The Transformation has an error. The transformation path file:///Users/jds/Desktop/win/pentaho/transformasi.ktr is invalid, and will not run successfully.
+2025-11-20 22:46:52.279 ERROR <Thread-44> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  org.pentaho.di.core.exception.KettleXMLException: 
+The transformation path file:///Users/jds/Desktop/win/pentaho/transformasi.ktr is invalid, and will not run successfully.
+
+	at org.pentaho.di.trans.TransMeta.<init>(TransMeta.java:2793)
+	at org.pentaho.di.base.MetaFileLoaderImpl.getMetaForEntry(MetaFileLoaderImpl.java:165)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.getTransMeta(JobEntryTrans.java:1289)
+	at org.pentaho.di.job.entries.trans.JobEntryTrans.execute(JobEntryTrans.java:714)
+	at org.pentaho.di.job.Job.execute(Job.java:707)
+	at org.pentaho.di.job.Job.execute(Job.java:848)
+	at org.pentaho.di.job.Job.execute(Job.java:517)
+	at org.pentaho.di.job.Job.run(Job.java:395)
+
+2025-11-20 22:46:52.283 INFO  <Thread-44> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Finished job entry [Transformation] (result=[false])
+2025-11-20 22:46:52.284 WARN  <Thread-44> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Job execution finished
+2025-11-20 22:47:40.885 WARN  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Start of job execution
+2025-11-20 22:47:40.891 INFO  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Starting entry [Transformation]
+2025-11-20 22:47:41.019 INFO  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Using run configuration [Pentaho local]
+2025-11-20 22:47:41.023 INFO  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Dispatching started for transformation [pentaho_rest_json_input]
+2025-11-20 22:47:41.065 INFO  <pentaho_rest_json_input - Data grid> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-20 22:47:42.200 INFO  <pentaho_rest_json_input - REST client> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-20 22:47:42.226 INFO  <pentaho_rest_json_input - JSON input> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-20 22:47:42.228 INFO  <pentaho_rest_json_input - Select values> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-20 22:47:42.664 INFO  <pentaho_rest_json_input - Microsoft Excel output> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=11, R=11, W=11, U=0, E=0)
+2025-11-20 22:47:42.707 INFO  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Starting entry [Success]
+2025-11-20 22:47:42.712 INFO  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Finished job entry [Success] (result=[true])
+2025-11-20 22:47:42.712 INFO  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Finished job entry [Transformation] (result=[true])
+2025-11-20 22:47:42.713 WARN  <Thread-52> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Job execution finished
+2025-11-20 22:48:37.716 WARN  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Start of job execution
+2025-11-20 22:48:37.744 INFO  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Starting entry [Transformation]
+2025-11-20 22:48:37.958 INFO  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Using run configuration [Pentaho local]
+2025-11-20 22:48:37.966 INFO  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Dispatching started for transformation [pentaho_rest_json_input]
+2025-11-20 22:48:38.009 INFO  <pentaho_rest_json_input - Data grid> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-20 22:48:38.801 INFO  <pentaho_rest_json_input - REST client> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-20 22:48:38.819 INFO  <pentaho_rest_json_input - JSON input> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-20 22:48:38.822 INFO  <pentaho_rest_json_input - Select values> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-20 22:48:39.179 INFO  <pentaho_rest_json_input - Microsoft Excel output> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb  file:///Users/jds/Desktop/win/pentaho_rest_json_input.ktr]  Finished processing (I=0, O=11, R=11, W=11, U=0, E=0)
+2025-11-20 22:48:39.214 INFO  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Starting entry [Success]
+2025-11-20 22:48:39.221 INFO  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Finished job entry [Success] (result=[true])
+2025-11-20 22:48:39.221 INFO  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Finished job entry [Transformation] (result=[true])
+2025-11-20 22:48:39.222 WARN  <Thread-64> [/Users/jds/Desktop/win/pentaho/job_json_to_excel.kjb]  Job execution finished

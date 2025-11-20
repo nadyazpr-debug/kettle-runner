@@ -1,0 +1,237 @@
+2025-11-17 21:22:20.033 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:22:20.160 INFO  </Transformation 1 - CSV file input> [/Transformation 1.ktr]  Header row skipped in file '/Users/jds/Downloads/bank_transactions_data_edited.csv'
+2025-11-17 21:22:20.657 INFO  </Transformation 1 - CSV file input> [/Transformation 1.ktr]  Finished processing (I=8, O=0, R=0, W=6, U=0, E=0)
+2025-11-17 21:22:20.657 INFO  </Transformation 1 - dummy> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=4, W=3, U=0, E=0)
+2025-11-17 21:43:22.576 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:43:36.544 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:43:36.646 ERROR </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Error parsing file [/Users/jds/Downloads/gen-lang-client-0938725805-215edf457086.json]!
+2025-11-17 21:43:36.653 ERROR </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  com.jayway.jsonpath.InvalidJsonException: net.minidev.json.parser.ParseException: Unexpected token t at position 1952.
+	at com.jayway.jsonpath.spi.json.JsonSmartJsonProvider.parse(JsonSmartJsonProvider.java:73)
+	at com.jayway.jsonpath.internal.ParseContextImpl.parse(ParseContextImpl.java:51)
+	at org.pentaho.di.trans.steps.jsoninput.reader.FastJsonReader.readInput(FastJsonReader.java:128)
+	at org.pentaho.di.trans.steps.jsoninput.reader.FastJsonReader.parse(FastJsonReader.java:159)
+	at org.pentaho.di.trans.steps.jsoninput.JsonInput.parseNextInputToRowSet(JsonInput.java:257)
+	at org.pentaho.di.trans.steps.jsoninput.JsonInput.getOneOutputRow(JsonInput.java:328)
+	at org.pentaho.di.trans.steps.jsoninput.JsonInput.processRow(JsonInput.java:108)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: net.minidev.json.parser.ParseException: Unexpected token t at position 1952.
+	at net.minidev.json.parser.JSONParserBase.readObject(JSONParserBase.java:567)
+	at net.minidev.json.parser.JSONParserBase.readFirst(JSONParserBase.java:301)
+	at net.minidev.json.parser.JSONParserBase.parse(JSONParserBase.java:158)
+	at net.minidev.json.parser.JSONParserReader.parse(JSONParserReader.java:55)
+	at net.minidev.json.parser.JSONParser.parse(JSONParser.java:247)
+	at com.jayway.jsonpath.spi.json.JsonSmartJsonProvider.parse(JsonSmartJsonProvider.java:71)
+	... 8 more
+
+2025-11-17 21:43:36.654 INFO  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2025-11-17 21:43:36.655 WARN  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2025-11-17 21:43:36.657 WARN  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Transformation is killing the other steps!
+2025-11-17 21:45:07.917 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:45:18.715 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:45:18.755 INFO  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 21:45:18.760 INFO  </Transformation 1 - dummy> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 21:45:38.990 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:45:39.036 INFO  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 21:45:39.040 INFO  </Transformation 1 - dummy> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 21:46:39.268 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:46:39.315 INFO  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 21:46:39.318 INFO  </Transformation 1 - dummy> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 21:47:05.875 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:47:05.979 INFO  </Transformation 1 - JSON input 2> [/Transformation 1.ktr]  Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 21:47:05.983 INFO  </Transformation 1 - dummy> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 21:59:31.454 INFO  <ModalContext> [/Transformation 1.ktr]  Dispatching started for transformation [/Transformation 1]
+2025-11-17 21:59:31.525 ERROR </Transformation 1 - Generate rows> [/Transformation 1.ktr]  Unexpected error
+2025-11-17 21:59:31.526 ERROR </Transformation 1 - Generate rows> [/Transformation 1.ktr]  org.pentaho.di.core.exception.KettleStepException: 
+Please set a value for the missing field(s) type.
+
+	at org.pentaho.di.trans.step.BaseStep.putRow(BaseStep.java:1263)
+	at org.pentaho.di.trans.steps.rowgenerator.RowGenerator.processRow(RowGenerator.java:231)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2025-11-17 21:59:31.538 INFO  </Transformation 1 - Generate rows> [/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2025-11-17 21:59:31.552 WARN  </Transformation 1 - Generate rows> [/Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2025-11-17 21:59:31.552 WARN  </Transformation 1 - Generate rows> [/Transformation 1.ktr]  Transformation is killing the other steps!
+2025-11-17 22:18:56.876 INFO  <Thread-121> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:21:21.420 INFO  <Thread-131> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:22:54.349 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 22:22:54.407 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:22:54.411 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-17 22:23:35.558 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 22:23:35.594 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:23:35.600 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-17 22:23:55.095 INFO  <Thread-149> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:23:55.155 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:24:43.095 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 22:24:43.151 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:24:43.155 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-17 22:24:53.392 INFO  <Thread-162> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:24:53.434 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:25:16.961 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 22:25:17.002 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:25:17.005 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-17 22:25:24.416 INFO  <Thread-176> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:25:24.446 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:26:09.158 INFO  <Thread-184> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:26:09.207 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=0, W=11, U=0, E=0)
+2025-11-17 22:27:44.330 INFO  <Thread-195> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:35:14.650 INFO  <Thread-220> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:38:59.420 INFO  <main> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:39:26.494 INFO  <main> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:41:56.665 INFO  <main> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:42:14.364 INFO  <main> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:42:24.404 INFO  <Transformation Heartbeat Thread for: Transformation 1> [/Users/jds/Desktop/win/Transformation 1.ktr]  Shutting down heartbeat signal for Transformation 1
+2025-11-17 22:44:05.553 INFO  <main> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 22:51:51.245 INFO  <Thread-279> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:03:20.991 INFO  <Thread-304> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:03:21.055 INFO  <Transformation 1 - Generate rows> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:03:21.078 INFO  <Transformation 1 - Add constants> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:03:21.848 ERROR <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Because of an error, this step can't continue: 
+Can not result from [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36]
+Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+
+2025-11-17 23:03:21.851 ERROR <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Can not result from [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36]
+Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+
+	at org.pentaho.di.trans.steps.rest.Rest.callRest(Rest.java:277)
+	at org.pentaho.di.trans.steps.rest.Rest.processRow(Rest.java:474)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+	at java.base/java.net.URI.create(URI.java:883)
+	at com.sun.jersey.api.client.Client.resource(Client.java:434)
+	at org.pentaho.di.trans.steps.rest.Rest.callRest(Rest.java:127)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+	at java.base/java.net.URI$Parser.fail(URI.java:2913)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3125)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 5 more
+
+2025-11-17 23:03:21.852 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2025-11-17 23:03:21.853 WARN  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2025-11-17 23:03:21.854 WARN  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Transformation is killing the other steps!
+2025-11-17 23:03:21.950 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:03:21.955 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:03:21.969 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:04:34.222 INFO  <Thread-317> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:04:34.246 INFO  <Transformation 1 - Generate rows> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:04:34.257 INFO  <Transformation 1 - Add constants> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:04:34.507 ERROR <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Because of an error, this step can't continue: 
+Can not result from [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36]
+Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+
+2025-11-17 23:04:34.508 ERROR <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Can not result from [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36]
+Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+
+	at org.pentaho.di.trans.steps.rest.Rest.callRest(Rest.java:277)
+	at org.pentaho.di.trans.steps.rest.Rest.processRow(Rest.java:474)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+	at java.base/java.net.URI.create(URI.java:883)
+	at com.sun.jersey.api.client.Client.resource(Client.java:434)
+	at org.pentaho.di.trans.steps.rest.Rest.callRest(Rest.java:127)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+	at java.base/java.net.URI$Parser.fail(URI.java:2913)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3125)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 5 more
+
+2025-11-17 23:04:34.509 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2025-11-17 23:04:34.510 WARN  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2025-11-17 23:04:34.511 WARN  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Transformation is killing the other steps!
+2025-11-17 23:04:34.614 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:04:34.615 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:04:34.621 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:05:46.202 INFO  <main> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:05:46.233 INFO  <Transformation 1 - Generate rows> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:05:46.243 INFO  <Transformation 1 - Add constants> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:05:46.538 ERROR <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Because of an error, this step can't continue: 
+Can not result from [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36]
+Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+
+2025-11-17 23:05:46.540 ERROR <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  org.pentaho.di.core.exception.KettleException: 
+Can not result from [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36]
+Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+
+	at org.pentaho.di.trans.steps.rest.Rest.callRest(Rest.java:277)
+	at org.pentaho.di.trans.steps.rest.Rest.processRow(Rest.java:474)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+	at java.base/java.net.URI.create(URI.java:883)
+	at com.sun.jersey.api.client.Client.resource(Client.java:434)
+	at org.pentaho.di.trans.steps.rest.Rest.callRest(Rest.java:127)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 11: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+	at java.base/java.net.URI$Parser.fail(URI.java:2913)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3125)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 5 more
+
+2025-11-17 23:05:46.542 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2025-11-17 23:05:46.544 WARN  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Transformation detected one or more steps with errors.
+2025-11-17 23:05:46.544 WARN  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Transformation is killing the other steps!
+2025-11-17 23:05:46.649 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:05:46.650 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:05:47.012 ERROR <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Errors detected!
+2025-11-17 23:14:02.816 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 23:14:02.902 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:14:02.916 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:14:43.582 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 23:14:43.603 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:14:43.612 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:14:57.055 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 23:14:57.070 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:14:57.070 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:16:10.294 INFO  <Thread-389> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:16:10.321 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:16:12.285 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:16:51.277 INFO  <Thread-398> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:16:51.303 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:16:51.764 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:17:12.441 INFO  <ModalContext> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Dispatching started for transformation [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1]
+2025-11-17 23:17:12.454 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025-11-17 23:17:12.462 INFO  </Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1 - dummy> [/Users/jds/Desktop/win/Transformation 1.ktr : Transformation 1.ktr]  Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025-11-17 23:19:24.056 INFO  <Thread-412> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:19:24.088 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:19:25.051 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:27:01.969 INFO  <Thread-426> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:27:02.025 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:29:48.399 INFO  <Thread-438> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:29:48.429 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:29:49.400 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:29:49.441 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-17 23:32:54.256 INFO  <Thread-460> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:32:54.296 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:32:54.969 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:32:54.993 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-17 23:32:55.001 INFO  <Transformation 1 - Select values> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-17 23:33:29.608 INFO  <Thread-475> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:33:29.631 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:33:30.270 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:33:30.286 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-17 23:34:26.445 INFO  <Thread-491> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:34:26.501 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:34:27.222 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:34:27.249 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-17 23:34:27.254 INFO  <Transformation 1 - Select values> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
+2025-11-17 23:35:31.102 INFO  <Thread-504> [/Users/jds/Desktop/win/Transformation 1.ktr]  Dispatching started for transformation [Transformation 1]
+2025-11-17 23:35:31.119 INFO  <Transformation 1 - Data grid> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-17 23:35:31.972 INFO  <Transformation 1 - REST client> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-17 23:35:31.985 INFO  <Transformation 1 - JSON input> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=11, O=0, R=1, W=11, U=0, E=0)
+2025-11-17 23:35:31.989 INFO  <Transformation 1 - Select values> [/Users/jds/Desktop/win/Transformation 1.ktr]  Finished processing (I=0, O=0, R=11, W=11, U=0, E=0)
