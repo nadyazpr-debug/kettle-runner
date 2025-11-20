@@ -23,7 +23,9 @@ jobs:
 
       - name: Install Pentaho Data Integration
         run: |
-          curl -L -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" "https://sourceforge.net/projects/pentaho/files/Data%20Integration/9.4/pdi-ce-9.4.0.0-343.zip/download" -o pdi.zip
+          wget --no-check-certificate --progress=dot:giga "https://archive.apache.org/dist/hop/2.9.0/apache-hop-client-2.9.0.zip" -O pdi.zip || \
+          curl -L "https://github.com/pentaho/pentaho-kettle/releases/download/9.4.0.0-343/pdi-ce-9.4.0.0-343.zip" -o pdi.zip || \
+          curl -L "https://iweb.dl.sourceforge.net/project/pentaho/Data%20Integration/9.4/pdi-ce-9.4.0.0-343.zip" -o pdi.zip
           unzip -q pdi.zip
           chmod +x data-integration/kitchen.sh
 
